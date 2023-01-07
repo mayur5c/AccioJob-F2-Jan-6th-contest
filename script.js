@@ -31,7 +31,7 @@ function PrintDeveloperbyForEach() {
 
 function addData() {
   //Write your code here
-  let newObj = { id: 4, name: "susan", age: "20", profession: "intern" };
+  let newObj = {id:4,name:"susan",age:"20",profession:"intern"};
   arr.push(newObj);
   console.log(arr);
 }
