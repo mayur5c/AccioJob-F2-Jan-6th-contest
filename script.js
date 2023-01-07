@@ -8,10 +8,24 @@ let arr = [
 
 function PrintDeveloperswithMap() {
   //Write your code here
+  arr.map(printingThroghMap); // Each element is stored in "printingThroghMap" variable
+ 
+  function printingThroghMap(arrayItem) {
+    if (arrayItem.profession === "developer") {
+      console.log(arrayItem);
+    }
+  }
 }
 
 function PrintDeveloperbyForEach() {
   //Write your code here
+  arr.forEach(printingThroghForEach); // Each element is stored in "printingThroghForEach" variable
+ 
+  function printingThroghForEach(arrayItem) {
+    if (arrayItem.profession === "developer") {
+      console.log(arrayItem);
+    }
+  }
 }
 
 function addData() {
@@ -25,3 +39,5 @@ function removeAdmin() {
 function concatenateArray() {
   //Write your code here
 }
+
+
